@@ -1,0 +1,96 @@
+body {
+    padding: 10px;
+    margin: 0px;
+    min-height: 100vh;
+    max-height: fit-content;
+    min-width: 900px;
+    background-color: rgb(208, 217, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    max-height: 550px;
+    min-height: 550px;
+    min-width: 700px;
+    max-width: 700px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    position: relative;
+}
+
+#timerParentDiv {
+    height: 200px;
+    width: 110%;
+    background-color: rgb(38, 50, 56);
+    box-shadow: rgb(53, 63, 68) 0px 8px 30px 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 17%;
+    right: -36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#butns {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#butns button {
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    font-size: larger;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+#butns button:last-child {
+    background-color: rgb(199, 198, 198);
+    color: black;
+}
+
+#butns button:last-child:hover {
+    color: rgb(199, 198, 198);
+    background-color: black;
+}
+
+#startAndStopBtn {
+    background-color: rgb(38, 50, 56);
+    color: white;
+    margin-right: 30px;
+}
+
+#timerParentDiv div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#timerParentDiv div span:first-child {
+    font-weight: bold;
+    font-size: 125px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#timerParentDiv div span:nth-child(2) {
+    font-size: x-large;
+    font-family: sans-serif;
+    color: rgb(208, 217, 221);
+}
+
+#timerParentDiv>span {
+    margin: 0px 20px 30px 20px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(208, 217, 221);
+}
